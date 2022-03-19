@@ -1,0 +1,78 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  height: 100vh;
+  background: #222;
+}
+
+.info-section {
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.section-flex {
+  padding-bottom: 400px;
+}
+
+/* Exemples flex */
+
+.container-flex  {
+  width: 800px;
+  height: 500px;
+  margin: 150px auto;
+  background: #ffcb9a;
+  display: flex;
+}
+
+.item-flex {  
+  background: crimson;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+
+
+/* Exemple #1 */
+
+
+
+
+/* Exemple #2 */
+.containerB {
+
+}
+
+
+
+
+
+/* Exemple #3 */
+
+.containerC {
+
+}
+
+
+
+
+
+/* Exemple #4 */
+.containerD {
+  height: 500px;
+  width: 500px;
+}
+.containerD .item-flex {
+  width: 150px;
+  height: 150px;
+}
+

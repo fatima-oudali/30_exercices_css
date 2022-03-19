@@ -1,0 +1,89 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  background: #222;
+  padding-bottom: 400px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  color: #f1f1f1;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.box {
+  background: crimson;
+  font-size: 20px;
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+
+/* Grid 1 */
+/* row = 150px */
+
+.grid1 {
+  max-width: 600px;
+  margin: 15px auto 150px;
+}
+
+
+
+
+/* Grid 2 */
+/* row = 200px */
+
+.grid2 {
+  max-width: 600px;
+  margin: 15px auto 150px;
+}
+
+.grid2 .b1 {
+
+}
+.grid2 .b2 {
+
+}
+.grid2 .b3 {
+
+}
+.grid2 .b4 {
+
+}
+
+
+
+
+/* Grid 3 */
+/* Essayez de nommer les cellules des grilles */
+/* row = 100px */
+
+.grid3 {
+  max-width: 600px;
+  margin: 15px auto 150px;
+}
+
+.grid3 .b1 {
+
+}
+.grid3 .b2 {
+
+}
+.grid3 .b3 {
+
+}
+.grid3 .b4 {
+
+}
+.grid3 .b5 {
+
+}

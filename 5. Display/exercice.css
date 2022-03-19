@@ -1,0 +1,30 @@
+/* Exercice #1 */
+/* Mettez le bon display aux <p> enfants de .box1 afin qu'ils se mettent en ligne. */
+
+.box1 p {
+
+}
+
+/* Exercice #2 */ 
+/* Donnez le bon display au <span> de .box2 afin qu'il puisse effectuer une rotation de 45deg sans prendre toute la largeur de son parent. */
+
+.box2 span {
+    transform: rotate(45deg); /* Pourquoi ça ne fonctionne pas? */
+
+}
+
+
+/* Exercice #3 */
+/* Utilisez flexbox avec la div ".flex-container", mais le container doit seulement prendre la largeur du contenu qu'il contient. */
+
+.flex-container {
+
+}
+
+
+/* Exercice #4 */
+/* Alignez les trois divs oranges tout en gardant la possiblité de mettre une width et une height. */
+
+.square {
+ 
+}

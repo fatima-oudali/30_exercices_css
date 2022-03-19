@@ -1,0 +1,105 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.c1 {background: salmon;}
+.c2 {background: lightblue;}
+.c3 {background: lightgreen;}
+.c4 {background: khaki;}
+.c5 {background: sandybrown;}
+.c6 {background: slateblue;}
+
+
+/*
+Trouve 6 façons de parfaitement centrer
+un élément sur x & y.
+Horizontalement et Verticalement.
+*/
+
+/* 1 */
+
+.c1 {
+  position: relative;
+}
+.c1 h1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+
+/* 2 */
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c2 h1 {
+}
+
+
+/* 3 */
+
+.c3 {
+text-align: center;
+line-height: 400px;
+/* white-space: nowrap; */
+}
+.c3 h1{
+
+}
+
+
+/* 4 */
+
+.c4 {
+display: grid;
+justify-content: center;
+align-items: center;
+}
+.c4 h1 {
+
+}
+
+
+/* 5 */
+
+.c5 {
+display: flex;
+}
+.c5 h1 {
+margin: auto;
+}
+
+
+/* 6 */
+
+.c6 {
+display: table;
+text-align: center;
+}
+.c6 h1 {
+display: table-cell;
+vertical-align: middle;
+} 
+
+
+

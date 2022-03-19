@@ -1,0 +1,62 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*1. Comment parvenir à rendre le site accessible pour les personnes qui zoom via les paramètres de navigateur ? */
+
+html {
+
+}
+
+
+
+/* 2. Donner au Body la hauteur totale de l'écran, quoiqu'il arrive et sans être relatif à autre chose qu'à l'écran */
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* 3. Faites en sorte que le header ait toujours un padding de 10% et une marge bottom de 8% du plus petit côté de la fenêtre.
+*/
+
+header {
+  background: lightsalmon;
+  color: #222;
+  text-align: center;
+  font-size: 4rem;
+  padding: ;
+  margin-bottom: ;
+}
+
+
+/* 4. Faites en sorte que le h1 ait toujours une font-size de 5% de la largeur d'écran */
+
+h1 {
+    text-align: center;
+}
+
+
+/* 5. Tous les textes de ".content" doivent faire référence à la font-size de ".content". */
+/* h2 doit faire 40px */
+/* span doit faire 16px */
+/* p doit faire 20px */
+
+.content {
+    font-size: ;
+    max-width: 90rem;
+    margin: 2rem auto 0;
+    padding: 2rem;
+    background: salmon;
+}
+.content h2 {
+    font-size: ;
+}
+.content span {
+    font-size: ;
+}
+.content p {
+    font-size: ;
+}

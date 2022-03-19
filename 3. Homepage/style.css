@@ -1,0 +1,157 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f1f1f1;
+  font-family: roboto, sans-serif;
+}
+
+/* Navigation */
+
+nav {
+  position: absolute;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+nav a {
+  color: #f1f1f1;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #4e6681;
+}
+nav a:hover::after {
+  background: #f1f1f1;
+}
+
+/* Home */
+
+.home {
+  height: 100vh;
+  background: url(ressources/citynight.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 50px;
+  position: relative;
+}
+
+.home h1 {
+  font-family: Montserrat, sans-serif;
+  padding-top: 200px;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  font-weight: 900;
+  font-size: clamp(25px, 7vw, 110px);
+}
+
+.subtitle {
+font-size: clamp(25px, 7vw, 60px);
+text-transform: uppercase;
+color: #f1f1f1;
+font-weight: 900;
+letter-spacing: -1px;
+}
+
+.stream-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 225px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px ;
+  text-decoration: none;
+  background: #f1f1f1;
+  color: #333;
+  padding: 10px 12px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+.stream-link:hover {
+  box-shadow: 0 5px 15px rgba(255,255,255,0.2);
+}
+.stream-link img {
+  width: 30px;
+}
+
+.floating-btn {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 #fff;
+  animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 15px rgb(255, 255, 255, 0.01);
+  }
+}
+.floating-btn img {
+  width: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 650px) {
+  nav a {
+    font-size: 18px;
+  }
+  .home {
+    height: 60vh;
+    padding: 0 25px;
+  }
+  .home h1 {
+    padding-top: 100px;
+  }
+  .subtitle {
+    margin-top: 5px;
+  }
+  .stream-link {
+    max-width: 145px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .stream-link img {
+    width: 25px;
+  }
+  .floating-btn {
+    width: 45px;
+    height: 45px;
+  }
+  .floating-btn img {
+    width: 20px;
+  }
+} 
+
+@media screen (max-width: 350px){
+  .home {
+    padding: 0 10px;
+  }
+}

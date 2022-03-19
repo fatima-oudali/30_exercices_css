@@ -1,0 +1,42 @@
+/* Trouvez au moins 3 façons de régler le problème de la fusion des marges. */
+
+
+.wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    background: orange;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    background: slateblue;
+    margin-top: 200px;
+}
+  
+
+/* #1 */
+.w1 {
+
+}
+.w1 .box {
+}
+
+
+/* #2 */
+.w2 {
+  
+}
+.w2 .box {
+}
+
+
+/* #3 */
+.w3 {
+
+}
+.w3 .box {
+}
+
+
+

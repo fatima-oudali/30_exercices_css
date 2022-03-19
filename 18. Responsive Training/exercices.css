@@ -1,0 +1,34 @@
+/* Exercice 1 */
+/* Ça se passe dans l'HTML! */
+
+
+
+
+
+/* Exercice 2 */
+/* Comment limiter la largeur de cette carte à 1100px maximum et 300px minimum sans media queries ? */
+
+.card {
+    background: linear-gradient(45deg, violet, rgb(177, 27, 177));
+    padding: 30px;
+}
+.card p {
+    margin-top: 5px;
+}
+
+
+/* Exercice 3 */
+
+/* A. Utilisez une requête média(media queries) afin de donner une width de 600px à cet input seulement lorsque la largeur d'écran est supérieure à 800px et inférieure à 1300px.*/
+
+.txt-input {
+    padding: 5px;
+    font-size: 18px;
+    display: block;
+    margin: 50px auto 0;
+}
+
+
+
+/* B.  Donnez une couleur de fond "crimson" à l'input seulement quand l'orientation du viewport est en mode "portrait" */
+

@@ -1,0 +1,34 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  height: 100vh;
+  background: #f1f1f1;
+  color: #222;
+}
+
+
+/* Utilisez les transitions CSS pour créer cette séquence d'animations */
+/* 
+Propriétés à animer pour arriver à ce résultat : 
+width: 50 - 200px
+height: 50 - 100px
+transform: rotate(720deg)
+*/
+
+.box {
+  margin: 100px auto;
+  width: 50px;
+  height: 50px;
+  background-color: salmon;
+  cursor: pointer;
+}
+.box:hover {
+
+}

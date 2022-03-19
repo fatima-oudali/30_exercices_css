@@ -1,0 +1,74 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #333;
+  font-family: roboto, sans-serif;
+}
+
+/* Ex1 */
+nav a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.content {
+  font-size: 20px;
+  padding: 100px 10vw;
+  color: #f1f1f1;
+  line-height: 1.5;
+}
+
+
+/* Ex2 */
+
+.box {
+  max-width: 300px;
+  min-height: 300px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+}
+
+.square {
+  background: violet;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* ex3 */
+
+.floating-btn {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+/* ex4 */
+
+.home {
+  height: 100vh;
+}
+.home-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.home-content  img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+.home-content h1 {
+  text-align: center;
+  color: #f1f1f1;
+  margin-top: 45px;
+}

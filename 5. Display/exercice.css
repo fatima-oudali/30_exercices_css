@@ -2,7 +2,7 @@
 /* Mettez le bon display aux <p> enfants de .box1 afin qu'ils se mettent en ligne. */
 
 .box1 p {
-
+display: inline;
 }
 
 /* Exercice #2 */ 
@@ -10,7 +10,7 @@
 
 .box2 span {
     transform: rotate(45deg); /* Pourquoi ça ne fonctionne pas? */
-
+    display: inline-block;
 }
 
 
@@ -18,7 +18,7 @@
 /* Utilisez flexbox avec la div ".flex-container", mais le container doit seulement prendre la largeur du contenu qu'il contient. */
 
 .flex-container {
-
+display: inline-block;
 }
 
 
@@ -26,5 +26,5 @@
 /* Alignez les trois divs oranges tout en gardant la possiblité de mettre une width et une height. */
 
 .square {
- 
+ display: inline-block;
 }
